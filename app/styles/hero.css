@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 415px;
+  background-color: rgb(218, 219, 241);
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  box-shadow: 3px 6px 5px -3px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 3px 6px 5px -3px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 3px 6px 5px -3px rgba(0, 0, 0, 0.54);
+  border: 1px solid black;
+  outline: none;
+}
+.box {
+  position: relative;
+}
+.box .button-search {
+  position: absolute;
+  top: 40px;
+  right: 26px;
+  font-size: xx-large;
+}

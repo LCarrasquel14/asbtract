@@ -1,0 +1,7 @@
+.letterhead-left:hover {
+  color: rgb(186, 189, 190);
+}
+
+.letterhead-right:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,100 @@
+.singin-container {
+  .box {
+    height: 85vh;
+    width: 60vw;
+    display: flex;
+    margin: 55px auto;
+    flex-direction: column;
+    border: 6px solid gainsboro;
+    border-radius: 6px;
+  }
+  .subtitle {
+    font-size: 18px;
+    color: rgb(94 105 107);
+  }
+  .subtitle::after {
+    content: ">";
+    color: rgb(18, 28, 94);
+    margin-left: 5px;
+  }
+  .subtitle span:hover {
+    text-decoration: underline;
+  }
+  .google-container {
+    height: 40px;
+    width: 17%;
+    flex-grow: 0.5;
+    margin: 0px 49px;
+    padding: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .google-container:hover {
+    background-color: rgb(241 241 241);
+  }
+  .form {
+    flex-grow: 0.5;
+  }
+
+  .google-img {
+    height: 20px;
+    margin-left: 8px;
+  }
+
+  .vertical-line {
+    border-left: 1px solid rgb(94 105 107);
+  }
+
+  .form .title {
+    width: 42px;
+    font-size: smaller;
+    font-weight: 600;
+    margin: 5px 0 5px 27px;
+  }
+
+  .form .input {
+    width: 80%;
+    margin: 0 auto 0 26px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 3px;
+  }
+
+  .form .input:focus {
+    outline: none;
+    border-color: #1f73b7;
+    box-shadow: rgba(31, 115, 183, 0.35) 0px 0px 0px 3px;
+  }
+  .input-container {
+    position: relative;
+  }
+
+  .input-container .visibility {
+    position: absolute;
+    right: 56px;
+    bottom: 9px;
+  }
+
+  .form .forgot {
+    width: 42px;
+    font-size: smaller;
+    color: #1f73b7;
+    margin: 10px 0 10px 27px;
+  }
+
+  .form .button {
+    width: 80%;
+    margin: 21px auto 0 26px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #1f73b7;
+    color: white;
+    font-weight: 600;
+  }
+  .footnotes-container {
+    padding: 50px;
+    font-size: small;
+    color: rgb(83, 116, 140);
+  }
+}
